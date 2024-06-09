@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # Load the tokenizer and model
-tokenizer = AutoTokenizer.from_pretrained('tokenizer-llama_career_0.5.0')
-model = AutoModelForCausalLM.from_pretrained('llama-2-7b-career-0.5.0')
+# tokenizer = AutoTokenizer.from_pretrained('tokenizer-llama_career_0.5.0')
+# model = AutoModelForCausalLM.from_pretrained('llama-2-7b-career-0.5.0')
 
 # Function to generate response
 def generate_response(input_text):
